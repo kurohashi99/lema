@@ -12,9 +12,7 @@ const textLinks: { label: string; href: string }[] = [
 
 /** Icon links to social media — edit these with links to your profiles! */
 const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
-	{ label: 'GitHub', href: 'https://github.com/kurohashi99', icon: 'github-logo' },
-	{ label: 'Linkedin', href: 'https://www.linkedin.com/in/hopecadidat', icon: 'linkedin-logo' },
-	{ label: 'Instagram', href: 'https://www.instagram.com/fumtsi/', icon: 'instagram-logo' },
+	{ label: 'Linkedin', href: '', icon: '' },
 ];
 
 /** Test if a link is pointing to the current page. */
@@ -29,9 +27,11 @@ const isCurrentPage = (href: string) => {
 <nav>
 	<div class="menu-header">
 		<a href="/" class="site-title">
-			<Icon icon="terminal-window" color="var(--accent-regular)" size="1.6em" gradient />
-			Moutsita Fred-Espoir Fum'tsi
+			<img src="/assets/mistere.jpeg" alt="Ministry Logo" style="width: 50px; height: 50px; vertical-align: middle;">
+			MINISTRY OF HYDROCARBONS
 		</a>
+	
+	
 		<menu-button>
 			<template>
 				<button class="menu-button" aria-expanded="false">
