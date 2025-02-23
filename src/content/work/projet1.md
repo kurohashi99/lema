@@ -6,7 +6,7 @@ img_alt: .
 description: |
   ...
 tags:
-  - MINISTRY OF HYDROCARBONS
+  - Ministère des finances et du budget
 
 ---
 <script>
